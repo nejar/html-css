@@ -1,0 +1,124 @@
+/*.nav ul li ul {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.nav ul li{
+	float: left;
+}
+
+
+.nav ul li ul li{
+	float: none;
+}
+
+li{
+	display: block;
+	list-style: none;
+	padding: 10px;
+}
+
+
+
+.nav ul li:hover>ul,
+ul li ul:hover{
+	
+	display: block;
+
+}
+*/
+
+/*.nav ul li : hover >ul ===  affects only to direct child, not affect to child ko child
+
+.nav ul li:hover >ul,   
+ .nav ul li ul li:hover ul{
+	display: block;
+}
+*/
+
+        /* ---------------------------------------------------------------navbar2----------------------------------------------*/
+
+/*.wrapper{
+	overflow: hidden;
+}
+*/
+.navbar ul{
+	margin: 0;
+	padding: 0;
+}
+.navbar >ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+.navbar{
+	background-color: green;
+}
+
+.navbar>li{
+	color: tomato;
+}
+
+.navbar ul li ul li{
+	background-color: tomato;
+}
+
+.navbar >ul >li{
+	list-style: none;
+	padding: 10px;
+	background-color: green;
+	position: relative;
+
+}
+
+.navbar ul li ul{
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding:10px;
+	position: absolute;
+	top: 100%;
+
+}
+.navbar ul li{
+	position: relative;
+}
+
+.navbar ul li ul li ul{
+	
+	position: absolute;
+	left: 100%;
+	top: 0;
+
+}
+
+.navbar ul li ul li ul li{
+	position: relative;
+}
+
+.navbar ul li ul li ul li ul{
+	position: absolute;
+
+}
+
+
+
+.navbar ul li{
+	float: left;
+}
+
+.navbar ul li ul li{
+	float: none;
+}
+
+
+.navbar ul li:hover >ul{
+	display: block;
+}
+

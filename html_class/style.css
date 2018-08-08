@@ -1,0 +1,147 @@
+body{
+	margin: 0px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.logo{
+	display: inline-block;
+
+}
+
+.navbar{
+	display: inline-block;
+	float: right;
+}
+
+.heighten{
+	text-align: center;
+	color: white;
+
+}
+
+.heighten h1{
+	padding: 10px;
+}
+
+.connect{
+	text-align: center;
+}
+
+.section2-img{
+text-align: center;
+    
+}
+
+.steps{
+	text-align: center;
+}
+
+.circle-block1{
+	display: inline-block;
+}
+
+.circle-block2{
+	display: inline-block;
+}
+
+.circle-block3{
+	display: inline-block;
+}
+
+.circle-block4{
+	display: inline-block;
+}
+
+.circle-block5{
+	display: inline-block;
+}
+
+.circle-text1{
+	text-align: center;
+}
+.circle-text2{
+	text-align: center;
+}
+
+.circle-text3{
+	text-align: center;
+}
+
+.circle-text4{
+	text-align: center;
+}
+
+.circle-text5{
+	text-align: center;
+}
+.circle-img1{
+ text-align: center;
+}
+.circle-img2{
+ text-align: center;
+}
+.circle-img3{
+ text-align: center;
+}
+.circle-img4{
+ text-align: center;
+}
+.circle-img5{
+ text-align: center;
+}
+
+.section4-upper{
+	overflow: hidden;
+}
+.yoga{
+	width: 50%;
+	float: left;
+
+}
+
+.yoga img{
+	width: 100%;
+}
+
+.meditation{
+	width: 50%;
+	background-color: #b9a6a6;
+	text-align: center;
+	display: inline-block;
+	
+}
+
+.yoga-img{
+	width: 25%;
+	float: left;
+}
+.yoga-img img{
+	width: 100%;
+}
+.the-big1{
+	width: 25%;
+	float: left;
+	text-align: center;
+	background-color: #e6e6e6;
+}
+.singing{
+	width: 25%;
+	float: left;
+}
+.singing img{
+	width: 100%;
+}
+.the-big2{
+	width: 25%;
+	float: left;
+	text-align: center;
+	background-color: #c5c8b8;
+}
