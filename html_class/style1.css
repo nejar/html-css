@@ -1,4 +1,18 @@
-/*.nav ul li ul {
+/*.nav ul li{
+	background-color: lightgray;
+}
+
+.nav a{
+	text-decoration: none;
+}
+
+.nav >ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.nav ul li ul {
 	display: none;
 	list-style: none;
 	margin: 0;
@@ -8,36 +22,106 @@
 
 .nav ul li{
 	float: left;
+	padding: 10px;
+	
+}
+.nav li{
+	text-decoration: none;
+	list-style: none;
 }
 
 
 .nav ul li ul li{
 	float: none;
+}*/
+
+/*using goole fonts locally*/
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-BlackItalic.woff') format('woff'),
+    url('Roboto-BlackItalic.ttf')  format('truetype'),
+    url('Roboto-BlackItalic.svg#Roboto-BlackItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-li{
-	display: block;
-	list-style: none;
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Medium.eot?#iefix') format('embedded-opentype'),  
+  url('Roboto-Medium.woff') format('woff'), 
+  url('Roboto-Medium.ttf')  format('truetype'), 
+  url('Roboto-Medium.svg#Roboto-Medium') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.nav ul{
+	padding-left: 0;
+}
+.nav ul ul{
+	display: none;
+}
+.nav a{
+	text-decoration: none;
+}
+.nav ul li{
+	position: relative;
+}
+.nav ul li ul{
+	position: absolute;
+	top: 50%;
+	padding: 0;
+}
+.nav ul li{
+	display: inline-block;
 	padding: 10px;
+	margin-left: 0;
+
+}
+.nav ul ul li{
+	position: relative;
+
+}
+.nav ul ul ul{
+	position: absolute;
+	left: 100%;
+	top: 25%;
+	padding: 0;
+}
+.nav ul{
+	background-color: lightgray;
+	margin-top: 10px;
+
+}
+.nav ul li:hover{
+	background-color: brown;
 }
 
 
 
-.nav ul li:hover>ul,
+/*.nav ul li:hover>ul,
 ul li ul:hover{
 	
 	display: block;
 
-}
-*/
+}*/
 
-/*.nav ul li : hover >ul ===  affects only to direct child, not affect to child ko child
+/*.nav ul li:hover ul{
+	display: block;
+}*/
+
+
+/*.nav ul li : hover >ul ===  affects only to direct child, not affect to child ko child*/
 
 .nav ul li:hover >ul,   
  .nav ul li ul li:hover ul{
 	display: block;
 }
-*/
+
 
         /* ---------------------------------------------------------------navbar2----------------------------------------------*/
 
@@ -45,6 +129,10 @@ ul li ul:hover{
 	overflow: hidden;
 }
 */
+.navbar{
+	margin: 0;
+}
+
 .navbar ul{
 	margin: 0;
 	padding: 0;
@@ -55,18 +143,29 @@ ul li ul:hover{
 	clear: both;
 }
 
-
+.navbar a{
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 0 -1px 0 #000;
+	font-family: roboto;
+	font-weight: normal;
+}
 
 .navbar{
 	background-color: green;
+	/*width: 100%;*/
 }
 
-.navbar>li{
-	color: tomato;
+.navbar li:hover{
+	background-color: skyblue;
 }
+
+
 
 .navbar ul li ul li{
 	background-color: tomato;
+	position: relative;
+	padding: 10px;
 }
 
 .navbar >ul >li{
@@ -77,13 +176,16 @@ ul li ul:hover{
 
 }
 
+
 .navbar ul li ul{
 	display: none;
 	list-style: none;
 	margin: 0;
-	padding:10px;
+	padding:0;
 	position: absolute;
+	/*left: 100%;*/
 	top: 100%;
+	width: 100px;
 
 }
 .navbar ul li{
@@ -93,8 +195,9 @@ ul li ul:hover{
 .navbar ul li ul li ul{
 	
 	position: absolute;
+	padding: 0;
 	left: 100%;
-	top: 0;
+	top:50%;
 
 }
 
@@ -104,6 +207,10 @@ ul li ul:hover{
 
 .navbar ul li ul li ul li ul{
 	position: absolute;
+	top: 20px;
+	padding: 0;
+	left: 100%;
+	
 
 }
 
@@ -117,8 +224,98 @@ ul li ul:hover{
 	float: none;
 }
 
-
+ /*if > not used then all ul will showed at once*/
 .navbar ul li:hover >ul{
 	display: block;
 }
 
+.navbar ul li:hover .up{
+		transform: rotate(-135deg);
+	-webkit-transform:rotate(-135deg);
+}
+
+.navbar ul >li> ul> li:hover .left{
+		transform: rotate(135deg);
+	-webkit-transform:rotate(135deg);
+}
+
+.navbar ul >li>ul>li> ul >li:hover .leftt{
+	transform: rotate(135deg);
+	-webkit-transform:rotate(135deg);
+}
+
+
+/*.navbar .navbar-ul{
+	overflow: hidden;
+}*/
+ #right-nav {
+	float: right;
+	padding-right: 50px;
+}
+
+i{
+	border:solid;
+	border-width: 0 1px 1px 0;
+	display: inline-block;
+	padding: 3px;
+}
+
+.right{
+	transform: rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+
+}
+
+.rightt{
+	transform: rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+
+}
+
+.down{
+	transform: rotate(45deg);
+	-webkit-transform:rotate(45deg);
+}
+
+
+ /*-------------------------- margin padding z-index ----------------------------------------------------------------------*/
+
+ .box-sizing .box{
+ 	width: 100px;
+ 	height: 100px;
+ 	position: relative;
+ }
+
+ .box-sizing .box1{
+ 	background: red;
+ 	margin: 10px;
+ 	padding: 10px;
+ 	position: absolute;
+ 	z-index: 1;
+ }
+
+ .box-sizing .box2{
+  	background: blue;
+  	 	margin: 5px;
+ 	padding: 5px;
+  	position: absolute;
+  	z-index: 2;
+  }
+
+ .box-sizing .box3{
+  	background: green;
+  	position: absolute;
+  	z-index: 3;
+  }
+
+
+  /*---------------------- table  ----------------------*/
+
+  .table-title{
+  	background: #f0f0f0;
+  	margin-bottom: 0;
+  }
+  .table-title h2{
+  	text-align: center;
+  	font-weight: 400;
+  }
