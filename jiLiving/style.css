@@ -1,0 +1,261 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+ line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+ display:block;
+}
+nav ul {
+ list-style:none;
+}
+blockquote, q {
+ quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content:'';
+ content:none;
+}
+a {
+ margin:0;
+ padding:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+ text-decoration: none;
+ list-style: none;
+}
+/* change colours to suit your needs */
+ins {
+ background-color:#ff9;
+ color:#000;
+ text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+ background-color:#ff9;
+ color:#000; 
+ font-style:italic;
+ font-weight:bold;
+}
+del {
+ text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+ border-bottom:1px dotted;
+ cursor:help;
+}
+table {
+ border-collapse:collapse;
+ border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+ display:block;
+ height:1px;
+ border:0; 
+ border-top:1px solid #cccccc;
+ margin:1em 0;
+ padding:0;
+}
+input, select {
+ vertical-align:middle;
+}
+
+/*--------------- css reset ends here -------------*/
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.container{
+	max-width: 1278px;
+	margin: 0 auto;
+}
+.container::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.header{
+	overflow: hidden;
+}
+.header-wrapper{
+	overflow: hidden;
+}
+.logo{
+	
+	float: left;
+	
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.navbar{
+	float: right;
+	padding-top: 55px;
+}
+.navbar ul li{
+	display: inline-block;
+	padding: 10px;
+	
+}
+.navbar a{
+	font-family: lato;
+	font-weight: 400;
+}
+.main{
+	
+}
+
+.banner{
+	
+	background-image: url('images/banner.jpg');
+}
+.banner-text h1{
+	font-size: 72px;
+	color: white;
+	padding-top: 260px;
+}
+.banner-text h5{
+	font-family: lato;
+	font-weight: 400;
+	font-size: 21px;
+	color: white;
+	padding-top: 60px;
+	padding-bottom: 66px;
+}
+.banner-text button{
+	background: tomato;
+	border:0;
+	width: 264px;
+	height: 87px;
+}
+.banner-text button a{
+	font-family: lato;
+	font-size: 17px;
+	font-weight: 600;
+	color: white;
+}
+.banner-text{
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 140px;
+
+}
+.connect-text{
+	margin: 116px 0 0;
+
+}
+
+.connect-text h3{
+	text-align: center;
+	font-family: lato;
+	font-size: 26px;
+	margin: 0 0 73px;
+}
+.connect-text p{
+	font-family: lato;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+}
+.connect-image{
+	margin: 115px 0 153px;
+	text-align: center;
+}
+.steps-text p{
+	font-family: lato;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 60px;
+}
+.steps-text h5{
+	font-family: lato;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0 0 118px;
+}
+.circle-block{
+	display: inline-block;
+	
+}
+.circle-img{
+	margin: 0 0 47px;
+	}
+
+.circle-img img{
+	border-radius: 50%;
+}
+.circle-text h2{
+	font-family: lato;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 2px;
+	margin: 0 0 46px;
+}
+.circle-text p{
+	font-family: lato;
+	font-weight: 400;
+	font-size: 16px;
+	margin: 0 0 40px;
+	
+}
+.circle-text a{
+	font-family: lato;
+	font-weight: 400;
+	font-size: 16px;
+}
+.circle-block-wrapper{
+	text-align: center;
+}
+.upper-circle-block{
+	margin: 0 0 70px;
+}
+.sprite-fb {
+	background: url('images/sprite.png') no-repeat 0 0;
+	width: 12px;
+	height: 24px;
+	display: inline-block;
+}
+
+.sprite-twitter {
+	background: url('images/sprite.png') no-repeat -178px -45px;
+	width: 24px;
+	height: 22px;
+	display: inline-block;
+}
+
+.sprite-insta {
+	background: url('images/sprite.png') no-repeat -216px -45px;
+	width: 26px;
+	height: 24px;
+	display: inline-block;
+}
