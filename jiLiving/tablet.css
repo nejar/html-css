@@ -1,5 +1,5 @@
 body{
-	color: red;
+	
 }
 .container{
 	max-width: 100%;
@@ -8,5 +8,24 @@ body{
 @media screen and (max-width: 767px) {
 	.container{
 		max-width: 100%;
+	}
+	.connect-image img{
+		width: 100%;
+	}
+	.circle-block-wrapper{
+		width: 100%;
+	}
+	.upper-circle-block{
+		width: 100%;
+	}
+	.circle-block{
+		width: 100%;
+	}
+	.section5-img-text{
+		width: 100%;
+	}
+	.section5-text-upper{
+		width: 100%;
+		padding: 15px;
 	}
 }
