@@ -15,7 +15,7 @@ time, mark, audio, video {
  border:0;
  outline:0;
  font-size:100%;
- vertical-align:baseline;
+ vertical-align:text-top;
  background:transparent;
 }
 
@@ -152,9 +152,16 @@ input, select {
 }
 .banner-text button{
 	background: tomato;
-	border:0;
+	border:none;
+	border-radius: 10px;
 	width: 264px;
 	height: 87px;
+	transition: background 1s ease;
+}
+.banner-text button:hover{
+	background:green;
+	border-radius: 20px;
+	transform: scale(1.5);
 }
 .banner-text button a{
 	font-family: lato;
@@ -188,6 +195,7 @@ input, select {
 .connect-image{
 	margin: 115px 0 153px;
 	text-align: center;
+	
 }
 .steps-text p{
 	font-family: lato;
@@ -205,6 +213,8 @@ input, select {
 }
 .circle-block{
 	display: inline-block;
+	padding-left: 50px;
+	width: 33%
 	
 }
 .circle-img{
@@ -220,12 +230,14 @@ input, select {
 	font-size: 16px;
 	letter-spacing: 2px;
 	margin: 0 0 46px;
+	line-height: 28px;
 }
 .circle-text p{
 	font-family: lato;
 	font-weight: 400;
 	font-size: 16px;
 	margin: 0 0 40px;
+	line-height: 26px;
 	
 }
 .circle-text a{
@@ -239,23 +251,294 @@ input, select {
 .upper-circle-block{
 	margin: 0 0 70px;
 }
+.section3{
+	margin-top: 120px;
+	overflow: hidden;
+}
+.section3-img1{
+	width: 50%;
+	float: left;
+}
+.section3-img1 img{
+	width: 100%;
+}
+.section3-img2{
+	background: #b9a6a6;
+	text-align: center;
+}
+.section3-img2-text{
+	
+	padding: 175px 0 210px;
+	
+}
+.section3-img2-text p{
+	font-family: lato;
+	font-size: 16px;
+	line-height: 5;
+}
+.section3-img2-text h1{
+	font-family: lato;
+	font-size: 64px;
+	font-weight: 700;
+}
+.section3-img2-text h5{
+	font-family: lato;
+	font-size: 16px;
+	line-height: 4;
+}
+.section3-img2-text button{
+	transition: background 1s ease;
+	border-radius: 5px 0 5px;
+
+}
+.section3-img2-text button:hover{
+	background-color: red;
+	border-radius: 15px 0 15px;
+	border:none;
+	transform: scale(1.5);
+}
+.section3-img2{
+	
+	width: 50%;
+	float: left;
+}
+.section3-lower{
+	margin: 94px 98px 0;
+}
+.section3-lower-img1{
+	width: 20%;
+	display: inline-block;
+}
+.section3-lower-img1 img{
+	width: 100%;
+}
+.section3-lower-img2{
+    width: 20%;
+    display: inline-block;
+    background: #e6e6e6;
+    text-align: center;
+}
+.section3-lower-img3{
+	width: 20%;
+	display: inline-block;
+}
+.section3-lower-img3 img{
+	width: 100%;
+}
+.section3-lower-img4{
+    width: 20%;
+    display: inline-block;
+    background: #e6e6e6;
+    text-align: center;
+}
+.section6{
+	margin-top: 93px;
+}
+.section6 .container{
+	max-width: 1706px;
+}
+.section6-img-text{
+	    width: 50%;
+    overflow: hidden;
+    float: left;
+}
+.section6-img{
+	    width: 50%;
+    float: left;
+}
+.section6-img img{
+	width: 100%;
+}
+.section6-text{
+	    width: 50%;
+    float: right;
+    text-align: center;
+    background: gray;
+    padding: 150px 0 144px;
+}
+.section6-text h2{
+	margin-bottom: 45px;
+}
+.section6-text p{
+	margin-bottom: 40px;
+}
+
+.section5{
+	
+	margin:105px 0 60px;
+}
+
+.section5 .container{
+	max-width: 1706px;
+}
+.section5-img-text{
+	    width: 50%;
+    overflow: hidden;
+    float: left;
+}
+.section5-img{
+	    width: 50%;
+    float: left;
+}
+.section5-img img{
+	width: 100%;
+}
+.section5-img-text-upper-wrapper{
+	margin-bottom: 25px;
+    overflow: hidden;
+}
+.section5-text-upper{
+	    width: 50%;
+    float: left;
+    text-align: center;
+    background: gray;
+    padding: 150px 0 144px;
+}
+.section5-text{
+	    width: 50%;
+    float: right;
+    text-align: center;
+    background: gray;
+    padding: 150px 0 144px;
+}
+.section5-img-text h2{
+	margin-bottom: 45px;
+}
+.section5-img-text p{
+	margin-bottom: 40px;
+}
+.section4-upper{
+	background: url('images/hill.jpg');
+	margin: 109px 0 0;
+	text-align:  center;
+	padding-bottom: 136px;
+}
+.section4-upper-text h2{
+	padding-top: 174px;
+}
+.section4-upper-text h1{
+	padding: 10px 0 15px;
+	font-weight: 700;
+	font-size: 68px;
+}
+.section4-upper-text p{
+	font-size: 16px;
+	font-weight: 300;
+	padding-bottom: 15px;
+}
+.section4-upper-text button{
+	background-color: black;
+	border:none;
+	color: white;
+	height: 30px;
+	border-radius: 5px;
+	transition: background 1s ease;
+}
+.section4-upper-text button:hover{
+	background:green;
+	border-radius: 15px;
+	transform: scale(1.5);
+}
+.section4-lower-text p{
+	font-weight: 800;
+	font-size: 19px;
+}
+.section4-lower-text{
+	margin-top: 215px;
+	text-align: center;
+}
+.lower-icon-text-wrapper{
+	overflow: hidden;
+}
+.section4-lower-icon{
+    margin-top: 100px;
+    overflow: hidden;
+    width: 50%;
+    float: left;
+   
+}
+.section4-lower-icon img{
+	border-radius: 50%;
+	float: right;
+}
+.section4-lower-icon-sideText {
+    overflow: hidden;
+    width: 50%;
+    float: right;
+    padding: 124px 17px 0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .sprite-fb {
 	background: url('images/sprite.png') no-repeat 0 0;
 	width: 12px;
 	height: 24px;
 	display: inline-block;
+	margin-right: 10px;
 }
 
+
 .sprite-twitter {
-	background: url('images/sprite.png') no-repeat -178px -45px;
+	background: url('images/sprite.png') no-repeat -27px -1px;
 	width: 24px;
 	height: 22px;
 	display: inline-block;
+	margin-right: 10px;
 }
 
 .sprite-insta {
-	background: url('images/sprite.png') no-repeat -216px -45px;
+	background: url('images/sprite.png') no-repeat -65px -1px;
 	width: 26px;
 	height: 24px;
 	display: inline-block;
+}
+
+
+.footer-wrapper{
+	overflow: hidden;
+	margin-bottom: 74px;
+}
+
+.footer-logo{
+	
+	float: left;
+	margin-right: 215px;
+}
+.footer-nav{
+
+	float: left;
+	margin:40px 215px 0 0;
+
+
+
+}
+.footer-nav li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+
+}
+.footer-nav p{
+	font-size: 12px;
+    font-family: lato;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+}
+.footer-icons{
+	float: left;
+	margin-top: 50px;
 }
