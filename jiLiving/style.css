@@ -96,6 +96,7 @@ input, select {
 .container{
 	max-width: 1278px;
 	margin: 0 auto;
+
 }
 .container::after{
 	content: "";
@@ -106,9 +107,18 @@ input, select {
 .header{
 	overflow: hidden;
 }
+label{
+	margin:0 20px 0 0;
+	font-size: 25px;
+	display: none;
+}
+#toggle{
+	display: none;
+}
 .header-wrapper{
 	overflow: hidden;
 }
+
 .logo{
 	
 	float: left;
@@ -119,6 +129,7 @@ input, select {
 .navbar{
 	float: right;
 	padding-top: 55px;
+	
 }
 .navbar ul li{
 	display: inline-block;
@@ -252,12 +263,14 @@ input, select {
 	margin: 0 0 70px;
 }
 .section3{
-	margin-top: 120px;
+	margin: 120px 15px 0;
 	overflow: hidden;
 }
 .section3-img1{
 	width: 50%;
 	float: left;
+/*	display: flex;
+	resize: horizontal;*/
 }
 .section3-img1 img{
 	width: 100%;
@@ -296,6 +309,11 @@ input, select {
 	border-radius: 15px 0 15px;
 	border:none;
 	transform: scale(1.5);
+}
+.section3-upper{
+	overflow: hidden;
+/*	display: flex;
+	resize: horizontal;*/
 }
 .section3-img2{
 	
@@ -338,13 +356,17 @@ input, select {
 	max-width: 1706px;
 }
 .section6-img-text{
-	    width: 50%;
+	width: 50%;
     overflow: hidden;
     float: left;
+/*    display: flex;
+    resize: horizontal;*/
 }
 .section6-img{
-	    width: 50%;
+	width: 50%;
     float: left;
+/*    display: flex;
+    resize: horizontal;*/
 }
 .section6-img img{
 	width: 100%;
@@ -375,10 +397,14 @@ input, select {
 	    width: 50%;
     overflow: hidden;
     float: left;
+/*    display: flex;
+    resize: horizontal;*/
 }
 .section5-img{
-	    width: 50%;
+	width: 50%;
     float: left;
+/*    display: flex;
+    resize: horizontal;*/
 }
 .section5-img img{
 	width: 100%;
