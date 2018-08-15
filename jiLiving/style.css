@@ -269,8 +269,8 @@ label{
 .section3-img1{
 	width: 50%;
 	float: left;
-/*	display: flex;
-	resize: horizontal;*/
+	display: flex;
+	resize: horizontal;
 }
 .section3-img1 img{
 	width: 100%;
@@ -312,8 +312,8 @@ label{
 }
 .section3-upper{
 	overflow: hidden;
-/*	display: flex;
-	resize: horizontal;*/
+	display: flex;
+	resize: horizontal;
 }
 .section3-img2{
 	
@@ -359,14 +359,14 @@ label{
 	width: 50%;
     overflow: hidden;
     float: left;
-/*    display: flex;
-    resize: horizontal;*/
+    display: flex;
+    resize: horizontal;
 }
 .section6-img{
 	width: 50%;
     float: left;
-/*    display: flex;
-    resize: horizontal;*/
+    display: flex;
+    resize: horizontal;
 }
 .section6-img img{
 	width: 100%;
@@ -397,14 +397,14 @@ label{
 	    width: 50%;
     overflow: hidden;
     float: left;
-/*    display: flex;
-    resize: horizontal;*/
+    display: flex;
+    resize: horizontal;
 }
 .section5-img{
 	width: 50%;
     float: left;
-/*    display: flex;
-    resize: horizontal;*/
+    display: flex;
+    resize: horizontal;
 }
 .section5-img img{
 	width: 100%;

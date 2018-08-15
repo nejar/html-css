@@ -84,9 +84,11 @@ body{
 	}
 	.section3-upper{
 		overflow: hidden;
+		display: block;
 	}
 	.section3-img1{
 		width: 100%;
+		display: block;
 	}
 	.section3-img2{
 		width: 100%;
@@ -106,6 +108,7 @@ body{
 	}
 	.section5-img-text{
 		width: 100%;
+		display: block;
 	}
 	.section5-text-upper{
 		width: 100%;
@@ -113,6 +116,7 @@ body{
 	}
 	.section5-img{
 		width: 100%;
+		display: block;
 	}
 	.section5-text{
 		width: 100%;
@@ -120,10 +124,12 @@ body{
 	}
 	.section6-img-text{
 		width: 100%;
+		display: block;
 	}
 	.section6-text{
 		width: 100%;
 		padding: 15px;
+		display: block;
 	}
 	.section6-img{
 		width: 100%;
