@@ -131,10 +131,16 @@ label{
 	padding-top: 55px;
 	
 }
+.fas, .fa-bars{
+	display: none;
+}
 .navbar ul li{
 	display: inline-block;
 	padding: 10px;
 	
+}
+.navbar ul li:hover{
+	background: green;
 }
 .navbar a{
 	font-family: lato;
@@ -258,19 +264,23 @@ label{
 }
 .circle-block-wrapper{
 	text-align: center;
+	overflow: hidden;
 }
 .upper-circle-block{
 	margin: 0 0 70px;
+	overflow: hidden;
 }
 .section3{
 	margin: 120px 15px 0;
 	overflow: hidden;
 }
 .section3-img1{
-	width: 50%;
-	float: left;
-	display: flex;
-	resize: horizontal;
+
+    width: 50%;
+    /* float: left; */
+    /* display: flex; */
+    /* resize: horizontal; */
+
 }
 .section3-img1 img{
 	width: 100%;
@@ -278,10 +288,17 @@ label{
 .section3-img2{
 	background: #b9a6a6;
 	text-align: center;
+
+    width: 50%;
+    /* float: left; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .section3-img2-text{
 	
-	padding: 175px 0 210px;
+	padding: 15px;
 	
 }
 .section3-img2-text p{
@@ -311,9 +328,12 @@ label{
 	transform: scale(1.5);
 }
 .section3-upper{
-	overflow: hidden;
+/*	overflow: hidden;
 	display: flex;
-	resize: horizontal;
+	resize: horizontal;*/
+    overflow: hidden;
+    display: flex;
+    resize: horizontal;
 }
 .section3-img2{
 	

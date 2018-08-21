@@ -1,0 +1,511 @@
+
+		/*Desktop view*/
+
+@media screen and (min-width: 1024px) {
+	.container{
+		width: 100%;
+	}
+	.banner-text {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+		}
+	.banner-text h1 {
+    font-size: 45px;
+    color: white;
+    padding-top: 50px;
+   }
+
+	.banner-text button {
+    background: tomato;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 44px;
+    transition: background 1s ease;
+    }
+
+	.banner-text h5 {
+    font-family: lato;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 40px;
+	}
+	.connect-text {
+    margin: 50px 0 0;
+	}
+	.connect-text h3{
+		margin: 0 0 31px;
+	}
+	.steps-text p{
+		    margin: 0 0 20px;
+	}
+	.steps-text h5{
+		    margin: 0 0 45px;
+	}
+	.connect-image {
+    margin: 50px 0 50px;
+    text-align: center;
+	}
+	.section4-lower-text {
+    margin-top: 60px;
+    text-align: center;
+	}
+	.section3-img2-text h5{
+		font-family: lato;
+	    font-size: 12px;
+	    line-height: 3;
+	}
+	.section3-img2-text h1{
+		font-size: 40px;
+	}
+	.section5 {
+    margin: 50px 0 60px;
+	}
+	.footer-logo{
+		margin:0;
+		padding-left:10px;
+	}
+	.footer-nav{
+		margin: 40px 137px;
+	}
+	.footer-icons{
+		margin:50px 0 0 0;
+	}
+}
+
+           /* Tablet view*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.container{
+		width: 100%;
+		max-width: 768px;
+		padding: 10px 10px 0;
+	}
+	.container::after{
+		content: "";
+		clear: both;
+		display: block;
+	}
+	.logo{
+		margin: 0;
+	    padding: 10px 0;
+	}
+	.logo img{
+		width: 150px;
+		padding: 10px;
+	}
+	.navbar{
+		padding: 20px 0;
+	}
+	.navbar a{
+		font-family: lato;
+	    font-weight: 400;
+	    font-size: 15px;
+	}
+	.banner-text{
+		padding-bottom: 45px;
+	}
+	.connect-text {
+    margin: 30px 0 0;
+	}
+	.connect-text h3 {
+    text-align: center;
+    font-family: lato;
+    font-size: 25px;
+    margin: 0 0 25px;
+		}
+	.banner-text h1{
+		font-size: 30px;
+	    color: white;
+	    padding-top: 25px;
+	}
+	.banner-text h5{
+		font-family: lato;
+	    font-weight: 400;
+	    font-size: 15px;
+	    color: white;
+	    padding-top: 20px;
+	    padding-bottom: 25px;
+	}
+	.banner-text button{
+	    width: 102px;
+    	height: 31px;
+	}
+	
+   .connect-image {
+    margin: 30px 0 30px;
+    text-align: center;
+    }
+	.connect-image img{
+		width: 100%;
+	}
+	.steps-text p {
+    font-family: lato;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 20px;
+	}
+	.steps-text h5{
+		    margin: 0 0 50px;
+	}
+	.circle-block {
+    display: inline-block;
+    padding: 0;
+    width: 50%;
+    float: left;
+	}
+	.middle{
+		float: none;
+		padding-top:45px;
+	}
+	.circle-text h2{
+		margin:0;
+		font-size: 15px;
+		line-height: 17px;
+	}
+	.circle-img {
+    margin: 0 0 30px;
+	}
+	.circle-text p {
+    font-family: lato;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 0 16px;
+    line-height: 20px;
+	}
+	.section3 {
+    margin: 60px 15px 0;
+	}
+	.section3-img2-text p {
+    font-family: lato;
+    font-size: 16px;
+    padding-bottom: 10px;
+     line-height: 0; 
+	}
+	.section3-img2-text h1 {
+    font-family: lato;
+    font-size: 40px;
+    font-weight: 700;
+	}
+	.section3-img2-text h5 {
+    font-family: lato;
+    font-size: 10px;
+    line-height: 2;
+	}
+	.section6 {
+    margin-top: 45px;
+	}
+	.section6-img-text {
+		width: 100%;
+		margin-bottom:10px;
+	}
+	.section4-upper {
+		margin: 50px 0 0;
+	}
+	.section4-lower-text {
+    margin-top: 45px;
+	}
+	.section4-lower-text p {
+    font-weight: 800;
+    font-size: 18px;
+	}
+	.section5 {
+    margin: 60px 0 30px;
+	}
+	.section5-img-text {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.footer-logo {
+    float: left;
+     margin-right:0; 
+	}
+	.footer-nav {
+    float: left;
+    margin:0;
+    padding: 35px;
+	}
+	.footer-icons {
+    float: left;
+    margin-top: 50px;
+    
+	}
+
+
+
+}
+
+			/*Mobile view*/
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.container{
+		max-width: 320px;
+		padding: 10px 15px;
+
+	}
+	.logo{
+		width: 130px;
+		padding: 10px 0 0;
+	}
+	.logo img{
+		width: 100%;
+	}
+	.navbar{
+		padding: 15px 0;
+	}
+	label{
+		display: block;
+	}
+		.navbar ul{
+		display: none;
+	}
+	.navbar i:hover +.navbar>ul{
+		display: block;
+	}
+	#toggle:hover +.navbar ul li {
+		display: block;
+
+	}
+	.navbar:hover ~ .navbar>ul{
+		display: block;
+	}
+	.navbar label:hover + .navbar>ul {
+		background: red;
+		display: block;
+	}
+
+	.banner-text h1{
+		font-size: 32px;
+		padding-top: 15px;
+	}
+	.banner-text button{
+		width: 90px;
+		height: 32px;
+	}
+	.banner-text h5{
+		font-size: 12px;
+		padding: 5px;
+	}
+	.banner-text{
+		padding-bottom: 15px;
+	}
+	.connect-image img{
+		width: 100%;
+	}
+	.connect-text{
+		margin: 0 auto;
+	}
+	.connect-text h3{
+	text-align: center;
+    font-family: lato;
+    font-size: 16px;
+    margin: 0 0 10px;
+	}
+	.connect-text p{
+		font-family: lato;
+	    font-weight: 400;
+	    font-size: 11px;
+	    text-align: center;
+	    line-height: 15px;
+	}
+	.connect-image{
+		margin:10px 0;
+	}
+	.steps-text p{
+		font-family: lato;
+	    font-size: 20px;
+	    font-weight: 700;
+	    text-align: center;
+	    margin: 0 0 15px;
+	}
+	.steps-text h5{
+		font-family: lato;
+	    font-size: 12px;
+	    font-weight: 400;
+	    text-align: center;
+	    margin: 0;
+	}
+	.circle-block-wrapper{
+		width: 100%;
+	}
+	.upper-circle-block{
+		width: 100%;
+		margin:0;
+	}
+	.circle-img{
+		margin: 0 0 10px;
+	}
+	.circle-img img{
+		border-radius: 50%;
+		width: 150px;
+	}
+	.circle-block{
+		width: 100%;
+		padding: 0;
+		margin:15px 0;
+	}
+	.circle-text h2{
+		font-family: lato;
+	    font-weight: 700;
+	    font-size: 13px;
+	    letter-spacing: 2px;
+	    margin: 0 0 6px;
+	    line-height: 15px;
+	}
+	.circle-text p{
+		font-family: lato;
+	    font-weight: 400;
+	    font-size: 11px;
+	    margin: 0 0 10px;
+	    line-height: 15px;
+	}
+	.circle-text a{
+		font-family: lato;
+	    font-weight: 400;
+	    font-size: 10px;
+	}
+	.section3{
+		    margin: 0px 15px 0;
+    		overflow: hidden;
+	}
+	.section3-upper{
+		overflow: hidden;
+		display: block;
+	}
+	.section3-img1{
+		width: 100%;
+		display: block;
+	}
+	.section3-img2{
+		width: 100%;
+	}
+	.section3-img2-text{
+		padding: 15px;
+	}
+	.section3-img2-text h1{
+	font-family: lato;
+    font-size: 25px;
+    font-weight: 600;
+	}
+	.section3-img2-text h5{
+	   font-family: lato;
+       font-size: 11px;
+       line-height: 1;
+       padding:5px 0;
+	}
+	.section3-img2-text p{
+	    font-family: lato;
+	    font-size: 15px;
+	    line-height: 3;
+	}
+	.section6{
+		margin-top: 25px;
+	}
+	.section4-upper{
+		margin: 30px 0 0;
+       text-align: center;
+       padding-bottom: 20px;
+	}
+	.section4-upper-text h1{
+		font-size: 40px;
+	}
+	.section4-upper-text h2{
+		padding-top: 20px;
+	}
+	.section4-upper-text p{
+		font-size: 13px;
+	}
+	.section4-lower-text {
+		margin-top: 10px;
+	}
+	.section4-lower-text p{
+		font-size: 11px;
+		line-height: 15px;
+	}
+	.section4-lower-icon{
+		margin-top: 30px;
+	}
+	.section4-lower-icon-sideText{
+		padding: 55px 9px 0;
+	}
+	.section4-lower-icon-sideText p{
+		font-size: 11px;
+	}
+	.section5{
+		    margin: 20px 0 25px;
+	}
+	.section5-img-text{
+		width: 100%;
+		display: block;
+	}
+	.section5-text-upper{
+		width: 100%;
+		padding: 15px;
+	}
+	.section5-img{
+		width: 100%;
+		display: block;
+	}
+	.section5-text{
+		width: 100%;
+		padding: 15px;
+	}
+	.section5-img-text h2{
+		margin-bottom: 15px;
+		font-size: 15px;
+	}
+	.section5-img-text p{
+		margin-bottom: 10px;
+		font-size: 12px;
+	}
+	.section5-img-text a{
+		font-size: 10px;
+	}
+	.section6-img-text{
+		width: 100%;
+		display: block;
+	}
+	.section6-text{
+		width: 100%;
+		padding: 15px;
+		display: block;
+	}
+	.section6-img{
+		width: 100%;
+	}
+	.section6-text h2{
+      margin-bottom: 15px;
+      font-size: 15px;
+	}
+	.section6-text p{
+	    margin-bottom: 10px;
+        font-size: 12px;
+	}
+	.section6-text p{
+		font-size: 10px;
+	}
+
+
+
+
+
+	.footer-logo{
+		width: 100%;
+		text-align: center;
+
+	}
+	.footer-nav{
+		margin: 40px 215px 20px 0;
+	    width: 100%;
+	    text-align: center;
+	}
+	.footer-icons{
+		margin-top: 50px;
+        text-align: center;
+        float: none;
+	}
+}
